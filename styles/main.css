@@ -1,0 +1,65 @@
+body{
+    margin: 0; /*sacamos los margenes predeterminados*/
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; /*más precida a la que conocemos*/
+}
+
+
+a {
+    text-decoration: none; /*empieza sin estilo, sacamos lo que trae por defecto*/
+    cursor: pointer; /*cambia de forma, permite manito*/
+}
+
+header{
+    width: 100%; /*ocupa toda la línea del encabezado*/
+    height: 60px; /*la altura de la franja que ocupa es de 60px*/
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px; /*dentro del header la clase esta ocupa este espacio*/
+    height: auto; /*para que se acomode al header*/
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px; /*le dimos espacio*/
+    color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url(https://static.thenounproject.com/png/756729-200.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
